@@ -86,7 +86,7 @@ namespace SL.Controllers
 
         [System.Web.Http.HttpPost]
         [System.Web.Http.Route("api/Empleado/Delete/{IdEmpleado}")]
-        // GET: api/Empleado/Delete
+        // POST: api/Empleado/Delete
         public IHttpActionResult Delete(int IdEmpleado)
         {
             ML.Result result = BL.Empleado.DeleteEF(IdEmpleado);

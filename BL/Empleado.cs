@@ -143,6 +143,5 @@ namespace BL
             }
             return result;
         }
-        //LINQ
     }
 }
